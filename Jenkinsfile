@@ -9,6 +9,7 @@ pipeline {
             steps {
 
                 echo "-=- This from branch Develop -=-"
+                echo "-=- First push from develop -=-"
 
                 // sh "cp .env .env.bak"
 
