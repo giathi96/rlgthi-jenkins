@@ -9,6 +9,7 @@ pipeline {
             steps {
 
                 echo "-=- This from branch Main -=-"
+                echo "-=- First Push event -=-"
 
                 // sh "cp .env .env.bak"
 
@@ -60,7 +61,6 @@ pipeline {
                 //     sh "sed -i \"s@POSTGRES_PASSWORD=POSTGRES_PASSWORD@POSTGRES_PASSWORD=$POSTGRES_PASSWORD@g\" .env"
                 // }
                 
-                sh "cat .env"
             }
         }
 
